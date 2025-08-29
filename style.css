@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    background-color: rgb(136, 135, 134);
+    max-width: 1200px;
+    margin-top: 5px;
+}
+
+header{
+    border-radius: 10px 10px 0 0;
+    background-color: NavajoWhite;
+    padding: 10px;
+    text-align: center;
+}
+
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav img{
+    max-width: 300px;
+    margin-left: 20px;
+}
+
+#listaMenu{
+    list-style-type: none;
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+#listaMenu li{
+    display: inline-block;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+}
