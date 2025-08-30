@@ -18,6 +18,14 @@ header{
     text-align: center;
 }
 
+header h1{
+    color: rgb(156, 76, 30);
+}
+
+header h2{
+    color: rgb(77, 38, 15);
+}
+
 nav{
     display: flex;
     flex-wrap: wrap;
@@ -34,13 +42,96 @@ nav img{
     list-style-type: none;
     margin-right: 20px;
     font-size: 20px;
+    background-color: rgb(224, 224, 224);
+    border-radius: 5px;
 }
 
 #listaMenu li{
     display: inline-block;
+    border-radius: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    padding: 5px;
+    transition: transform 0.3s ease;
+}
+
+#listaMenu li:hover{
+    transform: scale(1.4);
+}
+
+#listaMenu li:hover{
+    background-color: rgb(153, 153, 153);
 }
 
 main{
     background-color: rgb(255, 255, 255);
     padding: 10px;
+}
+
+#galeria{
+    width: 100%;
+    background-color: rgb(252, 208, 152);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.tarjeta{
+    width: 200px;
+    height: 150px;
+    border-radius: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+    border-radius: 10px;
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.25);
+    transition: transform 0.3s ease, width 3s ease, height 2s ease;
+}
+
+.tarjeta:hover{
+    transform: scale(1.9);
+    width: 150px;
+    height: 200px;
+}
+
+#t1{
+    background-image: url('./1.png');
+}
+
+#t2{
+    background-image: url('./2.png');
+}
+
+#t3{
+    background-image: url('./3.png');
+}
+
+#t4{
+    background-image: url('./4.png');
+}
+
+#t5{
+    background-image: url('./5.png');
+}
+
+#t6{
+    background-image: url('./6.png');
+}
+
+#t7{
+    background-image: url('./7.png');
+}
+
+#t8{
+    background-image: url('./8.png');
+}
+
+#t9{
+    background-image: url('./9.png');
 }
